@@ -33,7 +33,7 @@ public class TestSpringHibernateHQL {
 		studentService = null;
 	}
 	
-	
+	@Test
 	public void testListHQL() {
 		List<Student> list = studentService.listAllHQL();
 		
@@ -76,7 +76,7 @@ public class TestSpringHibernateHQL {
 		this.testListHQL();
 	}
 	
-	@Test
+	
 	public void testDeleteHQL() {
 		Student student = new Student();
 		student.setId(25);

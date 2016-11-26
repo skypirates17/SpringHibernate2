@@ -65,7 +65,7 @@ public class TestSpringHibernateNQL {
 	
 	public void testUpdateNQL() {
 		Student student = new Student();
-		student.setId(23);
+		student.setId(26);
 		student.setName("KIM JONG DAE"); 
 		student.setAddress("SEOUL");
 		student.setAge("55");
@@ -78,7 +78,7 @@ public class TestSpringHibernateNQL {
 	
 	public void testDeleteNQL() {
 		Student student = new Student();
-		student.setId(23);
+		student.setId(26);
 		
 		studentService.deleteNQL(student);
 		
